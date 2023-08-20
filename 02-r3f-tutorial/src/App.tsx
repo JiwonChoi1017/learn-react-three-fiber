@@ -16,7 +16,7 @@ const Box = (props: ThreeElements["mesh"]) => {
   return (
     <mesh {...props} ref={meshRef}>
       <boxGeometry args={[1, 1, 1]} />
-      <meshStandardMaterial color={0x00ff00} />
+      <meshBasicMaterial color={0x00ff00} />
     </mesh>
   );
 };
