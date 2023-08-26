@@ -1,5 +1,6 @@
 import "./index.css";
 
+import ArrayCamera from "./ArrayCamera";
 import CubeCameraApp from "./CubeCamera";
 import OrthographicCamera from "./OrthographicCamera";
 import PerspectiveCamera from "./PerspectiveCamera";
@@ -15,6 +16,7 @@ root.render(
     {/* <PerspectiveCamera /> */}
     {/* <OrthographicCamera /> */}
     {/* <StereoCamera /> */}
-    <CubeCameraApp />
+    {/* <CubeCameraApp /> */}
+    <ArrayCamera />
   </React.StrictMode>
 );
